@@ -9,7 +9,7 @@ using Grocery.Core.Models;
 
 namespace Grocery.Core.Data.Repositories
 {
-    internal class ProductCategoryRepository : IProductCategoryRepository
+    public class ProductCategoryRepository : IProductCategoryRepository
     {
         private readonly List<ProductCategory> productCategoryList;
 
